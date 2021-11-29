@@ -9,6 +9,7 @@ body {
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
+  /* align-items: center; */
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
@@ -20,8 +21,8 @@ h1 {
 }
 
 .board {
-  border: 1rem solid #fff;
-  background: #fff;
+  border: 1rem solid #ff652f;
+  background: #ff652f;
   width: 250px;
   height: 250px;
   display: grid;
@@ -47,12 +48,12 @@ h1 {
 .infoWrapper {
   display: flex;
   justify-content: center;
-  /* replace if history displayed */
-  /* justify-content: space-between; */
-}
 
+  /* replace if history displayed
+  justify-content: space-between; */
+}
 h3 {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 li {

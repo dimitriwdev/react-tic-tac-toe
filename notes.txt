@@ -1,0 +1,36 @@
+1 - manifest.json
+  standalone => disable url
+ "icons": [
+   {
+    "src": "icon/icon192.png",
+    "type": "image/png",
+    "sizes": "192x192",
+    "purpose": "any"
+   }
+ ]
+
+2 - emulator => android pie (project url: 10.0.2.2:3000) (for localhost:3000...)
+
+3 - check lighthouse chrome extention, see PWA on mobile
+
+4 - HTTPS on mobile
+  go to => chrome://inspect/#devices
+
+  once the android emulator has loaded:
+
+  - click on "port forwarding":
+    => enter localhost port: e.g: 3000
+    => Enable port forwarding
+
+  - click on "Configure":
+    => enter localhost port: e.g: 3000
+    => Enable port forwarding
+
+  on the emulator (in chrome) open the app again using locahost:3000
+
+5 - service worker
+
+=====> uncheck lighthouse option "clear storage" for testing PWA requirements
+
+  - display banner "add to homescreen"
+  => https://developers.google.com/web/fundamentals/app-install-banners/native

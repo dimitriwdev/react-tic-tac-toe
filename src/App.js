@@ -22,12 +22,12 @@ const App = () => {
     setIsXNext(!isXNext);
   };
 
-  const jumpTo = (step) => {
-    setStepNumber(step);
-    setIsXNext(step % 2 === 0);
-  };
-
   // uncomment to displayed history
+
+  // const jumpTo = (step) => {
+  //   setStepNumber(step);
+  //   setIsXNext(step % 2 === 0);
+  // };
 
   // const renderMoves = () =>
   //   history.map((_step, move) => {
